@@ -1,0 +1,163 @@
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ white_rate | black_rate | draw_rate 
+------------+------------+-----------
+       0.50 |       0.45 |      0.05
+(1 row)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+      player      | num_wins 
+------------------+----------
+ chesscarl        |       39
+ smilsydov        |       31
+ projetoxadrez    |       29
+ lzchips          |       24
+ chiggen          |       23
+ chesswithmom     |       22
+ siindbad         |       21
+ mmichael         |       18
+ smartduckduckcow |       17
+ plausibletheory  |       15
+ hus1972          |       14
+ chesskhovtsev    |       14
+ mrzoom47         |       13
+ lance5500        |       13
+ theshelton       |       13
+(15 rows)
+
+       player        | num_loss 
+---------------------+----------
+ thebestofthebad     |       34
+ drakon1             |       23
+ stellanova          |       23
+ crazyscientist1     |       23
+ schoonied           |       22
+ josephelbouhessaini |       20
+ duckduckfrog        |       18
+ ghaffari            |       17
+ kylecuver1          |       17
+ svindled            |       17
+ sveenemand          |       16
+ mccheese            |       15
+ ianremsen           |       15
+ marigw              |       15
+ viswannabe          |       15
+(15 rows)
+
+       player        | max  
+---------------------+------
+ ramin741            | 1860
+ saviter             | 1744
+ nitsua49            | 1711
+ svindled            | 1709
+ wojand              | 1695
+ arda2828            | 1678
+ cfc52               | 1632
+ mansoor_k11         | 1627
+ ianremsen           | 1621
+ juansnow            | 1597
+ zapala              | 1590
+ solidchess_hehe     | 1562
+ duckduckfrog        | 1552
+ tux09               | 1536
+ aleroniponi         | 1500
+ astronautearl101    | 1500
+ crazyscientist1     | 1500
+ drakon1             | 1500
+ element4life        | 1500
+ josephelbouhessaini | 1500
+ justindong          | 1500
+ lucatiel-of-mirrah  | 1500
+ mccheese            | 1500
+ thebestofthebad     | 1500
+ tidalbutt           | 1447
+ erikweisz           | 1413
+ ghaffari            | 1392
+ engcondor           | 1350
+ vkmansftw           | 1348
+ stellanova          | 1340
+ schoonied           | 1319
+ sveenemand          | 1264
+ blokh1n             | 1244
+ jrandmaster         | 1236
+ mrmandelbrot        | 1215
+ viswannabe          | 1207
+ kraloyun            | 1197
+ trx                 | 1151
+ jarrydlee           | 1150
+ chesswith666        | 1149
+ canexd              | 1104
+ kylecuver1          | 1006
+ marigw              | 1005
+ xamio               | 1001
+ austindecoder       |  996
+(45 rows)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+    upsetter     | upsets | largest_upset 
+-----------------+--------+---------------
+ crazyscientist1 |      6 |           667
+ enricolord      |      6 |           415
+ taranga         |      6 |           252
+ stitch_13       |      5 |           528
+ srinikhil963    |      5 |           611
+ mrmandelbrot    |      4 |           356
+ andreas00       |      4 |           367
+ a_p_t_e_m_u_u   |      4 |           526
+ atchayam        |      4 |           555
+ cdvh            |      4 |           330
+ masquerade      |      3 |           286
+ hishamtheman    |      3 |           278
+ juanma206       |      3 |           219
+ marstem         |      3 |           233
+ jg2017          |      3 |           361
+(15 rows)
+
+  gid  | white_rating | black_rating | difference | winner |     upsetter      
+-------+--------------+--------------+------------+--------+-------------------
+  9615 |         1500 |         2352 |        852 | white  | morteza0088996655
+ 18245 |          864 |         1651 |        787 | white  | morinerine
+ 13587 |         1800 |         1023 |        777 | black  | tillinator97
+ 13255 |         1791 |         2516 |        725 | white  | stopmirinbrah
+ 16030 |         1787 |         1074 |        713 | black  | absyntheminded
+ 11833 |         1355 |         2052 |        697 | white  | dragonslayer04
+ 11458 |         1682 |         1015 |        667 | black  | crazyscientist1
+ 11465 |         1450 |          789 |        661 | black  | crazyscientist1
+  9610 |         2159 |         1500 |        659 | black  | masterbigsuff
+ 12884 |         1285 |         1936 |        651 | white  | kazamaza
+ 13085 |         1913 |         1275 |        638 | black  | mrsneef
+ 10290 |         1432 |         2069 |        637 | white  | miriammarques
+ 17993 |         1141 |         1762 |        621 | white  | adriahikmal
+ 15350 |         1506 |         2117 |        611 | white  | srinikhil963
+ 12837 |         2001 |         1395 |        606 | black  | iranmat89
+(15 rows)
+

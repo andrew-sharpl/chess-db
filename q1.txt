@@ -1,0 +1,286 @@
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ oid  | eco |                 opening_name                 | ply | resign_rate | draw_rate | mate_rate | timeoutrate | total 
+------+-----+----------------------------------------------+-----+-------------+-----------+-----------+-------------+-------
+  105 | C20 | King's Pawn Game: Napoleon Attack            |   3 |        0.34 |      0.07 |      0.56 |        0.03 |    59
+   93 | A04 | Zukertort Opening: Queen's Gambit Invitation |   2 |        0.38 |      0.06 |      0.53 |        0.04 |    53
+  975 | C00 | French Defense: Steinitz Attack              |   3 |        0.32 |      0.08 |      0.49 |        0.11 |    53
+ 1246 | A02 | Bird Opening                                 |   1 |        0.41 |      0.03 |      0.48 |        0.08 |    66
+ 1163 | C20 | King's Pawn Game: Wayward Queen Attack       |   3 |        0.41 |      0.04 |      0.46 |        0.09 |   164
+  139 | C42 | Russian Game: Urusov Gambit                  |   5 |        0.47 |      0.03 |      0.44 |        0.06 |    64
+  285 | D00 | Queen's Pawn Game #3                         |   4 |        0.36 |      0.09 |      0.43 |        0.13 |    56
+   90 | C20 | King's Pawn Game: Leonardis Variation        |   3 |        0.43 |      0.02 |      0.43 |        0.12 |   154
+  219 | C40 | King's Pawn Game: Busch-Gass Gambit          |   4 |        0.47 |      0.05 |      0.43 |        0.05 |    58
+  490 | C40 | King's Knight Opening                        |   3 |        0.46 |      0.01 |      0.43 |        0.10 |    87
+  711 | C40 | Elephant Gambit                              |   4 |        0.48 |      0.02 |      0.43 |        0.07 |    56
+ 1011 | C21 | Center Game #2                               |   3 |        0.47 |           |      0.43 |        0.10 |    60
+  838 | C40 | King's Pawn Game: Damiano Defense            |   4 |        0.42 |      0.04 |      0.42 |        0.13 |    79
+ 1333 | A00 | Van't Kruijs Opening                         |   1 |        0.46 |      0.04 |      0.42 |        0.07 |   368
+ 1430 | A00 | Hungarian Opening                            |   1 |        0.48 |      0.02 |      0.42 |        0.08 |   130
+(15 rows)
+
+ oid  | eco |                         opening_name                         | ply | resign_rate | draw_rate | mate_rate | timeoutrate | total 
+------+-----+--------------------------------------------------------------+-----+-------------+-----------+-----------+-------------+-------
+  664 | C02 | French Defense: Advance Variation |  Paulsen Attack          |   9 |        0.71 |      0.06 |      0.15 |        0.08 |    52
+  771 | C55 | Italian Game: Two Knights Defense |  Modern Bishop's Opening |   7 |        0.69 |      0.04 |      0.21 |        0.06 |    72
+ 1195 | D30 | Queen's Gambit Declined                                      |   4 |        0.68 |      0.01 |      0.25 |        0.06 |   111
+  243 | B30 | Sicilian Defense: Nyezhmetdinov-Rossolimo Attack             |   5 |        0.66 |      0.01 |      0.26 |        0.06 |    68
+  972 | B21 | Sicilian Defense: McDonnell Attack                           |   3 |        0.66 |      0.04 |      0.18 |        0.12 |    68
+ 1331 | B01 | Scandinavian Defense: Modern Variation #2                    |   4 |        0.65 |      0.02 |      0.25 |        0.08 |    60
+ 1425 | B12 | Caro-Kann Defense: Advance Variation                         |   5 |        0.65 |      0.09 |      0.18 |        0.09 |    57
+ 1469 | C01 | French Defense: Exchange Variation                           |   5 |        0.65 |      0.08 |      0.22 |        0.05 |   109
+  171 | B23 | Sicilian Defense: Closed Variation                           |   3 |        0.64 |      0.09 |      0.24 |        0.03 |    70
+  261 | B07 | Pirc Defense #4                                              |   2 |        0.63 |      0.07 |      0.24 |        0.06 |   107
+  379 | A00 | Polish Opening                                               |   1 |        0.63 |      0.05 |      0.25 |        0.07 |    56
+  135 | A40 | Modern Defense                                               |   2 |        0.63 |      0.04 |      0.29 |        0.05 |    84
+ 1535 | B30 | Sicilian Defense: Old Sicilian                               |   4 |        0.62 |      0.03 |      0.28 |        0.08 |   159
+  406 | C65 | Ruy Lopez: Berlin Defense #2                                 |   6 |        0.62 |      0.03 |      0.32 |        0.04 |    73
+ 1096 | B10 | Caro-Kann Defense                                            |   2 |        0.62 |      0.04 |      0.28 |        0.06 |   140
+(15 rows)
+
+ oid  | eco |                    opening_name                     | ply | resign_rate | draw_rate | mate_rate | timeoutrate | total 
+------+-----+-----------------------------------------------------+-----+-------------+-----------+-----------+-------------+-------
+ 1234 | A03 | Bird Opening: Dutch Variation                       |   2 |        0.48 |      0.13 |      0.31 |        0.08 |    64
+  576 | C50 | Italian Game                                        |   5 |        0.47 |      0.11 |      0.34 |        0.08 |   109
+  178 | B13 | Caro-Kann Defense: Exchange Variation               |   5 |        0.56 |      0.11 |      0.24 |        0.09 |    66
+ 1425 | B12 | Caro-Kann Defense: Advance Variation                |   5 |        0.65 |      0.09 |      0.18 |        0.09 |    57
+  285 | D00 | Queen's Pawn Game #3                                |   4 |        0.36 |      0.09 |      0.43 |        0.13 |    56
+  171 | B23 | Sicilian Defense: Closed Variation                  |   3 |        0.64 |      0.09 |      0.24 |        0.03 |    70
+ 1469 | C01 | French Defense: Exchange Variation                  |   5 |        0.65 |      0.08 |      0.22 |        0.05 |   109
+  716 | B20 | Sicilian Defense: Staunton-Cochrane Variation       |   3 |        0.55 |      0.08 |      0.28 |        0.09 |    53
+  975 | C00 | French Defense: Steinitz Attack                     |   3 |        0.32 |      0.08 |      0.49 |        0.11 |    53
+  261 | B07 | Pirc Defense #4                                     |   2 |        0.63 |      0.07 |      0.24 |        0.06 |   107
+  105 | C20 | King's Pawn Game: Napoleon Attack                   |   3 |        0.34 |      0.07 |      0.56 |        0.03 |    59
+  817 | C00 | French Defense: Knight Variation                    |   3 |        0.58 |      0.06 |      0.31 |        0.05 |   271
+  320 | A45 | Indian Game                                         |   2 |        0.52 |      0.06 |      0.32 |        0.09 |   181
+  664 | C02 | French Defense: Advance Variation |  Paulsen Attack |   9 |        0.71 |      0.06 |      0.15 |        0.08 |    52
+  871 | B40 | Sicilian Defense: French Variation                  |   4 |        0.44 |      0.06 |      0.29 |        0.21 |    63
+(15 rows)
+
+ oid  | eco |               opening_name                | ply | resign_rate | draw_rate | mate_rate | timeoutrate | total 
+------+-----+-------------------------------------------+-----+-------------+-----------+-----------+-------------+-------
+  871 | B40 | Sicilian Defense: French Variation        |   4 |        0.44 |      0.06 |      0.29 |        0.21 |    63
+  546 | A40 | English Defense #2                        |   2 |        0.46 |           |      0.36 |        0.18 |    50
+  147 | C40 | King's Pawn Game: McConnell Defense       |   4 |        0.54 |      0.04 |      0.25 |        0.17 |   100
+ 1296 | A20 | English Opening: King's English Variation |   2 |        0.43 |      0.02 |      0.39 |        0.17 |    96
+  798 | C20 | King's Pawn Game                          |   2 |        0.54 |      0.04 |      0.27 |        0.16 |    56
+  639 | C00 | French Defense: Normal Variation          |   3 |        0.44 |      0.03 |      0.38 |        0.15 |   129
+  363 | A40 | Queen's Pawn                              |   1 |        0.58 |      0.05 |      0.25 |        0.13 |    88
+  285 | D00 | Queen's Pawn Game #3                      |   4 |        0.36 |      0.09 |      0.43 |        0.13 |    56
+  838 | C40 | King's Pawn Game: Damiano Defense         |   4 |        0.42 |      0.04 |      0.42 |        0.13 |    79
+   90 | C20 | King's Pawn Game: Leonardis Variation     |   3 |        0.43 |      0.02 |      0.43 |        0.12 |   154
+ 1216 | B01 | Scandinavian Defense                      |   2 |        0.50 |      0.04 |      0.34 |        0.12 |   223
+  491 | A40 | Horwitz Defense                           |   2 |        0.53 |      0.02 |      0.33 |        0.12 |   209
+  972 | B21 | Sicilian Defense: McDonnell Attack        |   3 |        0.66 |      0.04 |      0.18 |        0.12 |    68
+  793 | C41 | Philidor Defense #3                       |   5 |        0.53 |      0.02 |      0.34 |        0.11 |   198
+  347 | B01 | Scandinavian Defense: Main Line           |   6 |        0.55 |      0.02 |      0.32 |        0.11 |    62
+(15 rows)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ oid  | avg_length | eco |             opening_name              | ply 
+------+------------+-----+---------------------------------------+-----
+  285 |      79.86 | D00 | Queen's Pawn Game #3                  |   4
+  993 |      70.41 | C41 | Philidor Defense #2                   |   4
+  178 |      70.35 | B13 | Caro-Kann Defense: Exchange Variation |   5
+  871 |      69.63 | B40 | Sicilian Defense: French Variation    |   4
+  508 |      69.13 | B06 | Modern Defense                        |   2
+  641 |      66.79 | D00 | Queen's Pawn Game: Mason Attack       |   3
+  975 |      66.77 | C00 | French Defense: Steinitz Attack       |   3
+  847 |      66.19 | C62 | Ruy Lopez: Steinitz Defense           |   6
+  328 |      66.12 | B54 | Sicilian Defense #2                   |   6
+ 1425 |      66.09 | B12 | Caro-Kann Defense: Advance Variation  |   5
+ 1234 |      65.98 | A03 | Bird Opening: Dutch Variation         |   2
+  320 |      65.97 | A45 | Indian Game                           |   2
+ 1272 |      65.47 | D00 | Queen's Pawn Game #2                  |   3
+ 1535 |      65.37 | B30 | Sicilian Defense: Old Sicilian        |   4
+   76 |      65.24 | C41 | Philidor Defense                      |   5
+(15 rows)
+
+ oid  | avg_length | eco |               opening_name                | ply 
+------+------------+-----+-------------------------------------------+-----
+  798 |      27.70 | C20 | King's Pawn Game                          |   2
+  490 |      42.03 | C40 | King's Knight Opening                     |   3
+  711 |      44.18 | C40 | Elephant Gambit                           |   4
+ 1216 |      46.78 | B01 | Scandinavian Defense                      |   2
+ 1246 |      46.92 | A02 | Bird Opening                              |   1
+  436 |      47.19 | A00 | Mieses Opening                            |   1
+ 1418 |      49.52 | C23 | Bishop's Opening                          |   3
+   41 |      50.12 | D00 | Queen's Pawn Game                         |   2
+ 1011 |      51.13 | C21 | Center Game #2                            |   3
+  105 |      52.64 | C20 | King's Pawn Game: Napoleon Attack         |   3
+  909 |      52.66 | C50 | Italian Game: Giuoco Pianissimo |  Normal |   8
+  139 |      53.70 | C42 | Russian Game: Urusov Gambit               |   5
+  904 |      53.99 | D01 | Queen's Pawn Game: Chigorin Variation     |   4
+  219 |      54.24 | C40 | King's Pawn Game: Busch-Gass Gambit       |   4
+  624 |      54.38 | B20 | Sicilian Defense                          |   2
+(15 rows)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ oid  |               opening_name               | count 
+------+------------------------------------------+-------
+ 1333 | Van't Kruijs Opening                     |     8
+  641 | Queen's Pawn Game: Mason Attack          |     8
+  993 | Philidor Defense #2                      |     6
+  817 | French Defense: Knight Variation         |     6
+  798 | King's Pawn Game                         |     5
+  504 | Sicilian Defense: Bowdler Attack         |     5
+ 1003 | Italian Game: Anti-Fried Liver Defense   |     5
+ 1216 | Scandinavian Defense                     |     4
+  474 | Queen's Gambit Refused: Marshall Defense |     4
+ 1256 | King's Indian Attack: French Variation   |     4
+  624 | Sicilian Defense                         |     4
+  330 | Owen Defense                             |     4
+  536 | King's Knight Opening: Normal Variation  |     4
+  491 | Horwitz Defense                          |     4
+  568 | Sicilian Defense                         |     4
+(15 rows)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ oid  |                    opening_name                     | opening_avg | count 
+------+-----------------------------------------------------+-------------+-------
+  919 | Sicilian Defense: Delayed Alapin                    |     1805.35 |    43
+  475 | Semi-Slav Defense                                   |     1790.24 |    33
+ 1473 | Nimzo-Indian Defense: Ragozin Variation             |     1786.01 |    35
+  102 | Sicilian Defense: Najdorf |  Lipnitsky Attack       |     1782.81 |    35
+ 1067 | King's Indian Defense                               |     1760.45 |    32
+ 1228 | Sicilian Defense: Najdorf Variation                 |     1758.98 |    31
+ 1355 | Queen's Gambit Declined: Normal Defense             |     1755.98 |    32
+  178 | Caro-Kann Defense: Exchange Variation               |     1748.55 |    66
+  970 | Queen's Pawn Game: London System                    |     1740.77 |    79
+  972 | Sicilian Defense: McDonnell Attack                  |     1734.25 |    68
+  871 | Sicilian Defense: French Variation                  |     1731.68 |    63
+  858 | Scotch Game: Classical Variation                    |     1730.15 |    44
+  231 | Zukertort Opening: Sicilian Invitation              |     1727.71 |    42
+  664 | French Defense: Advance Variation |  Paulsen Attack |     1721.11 |    52
+ 1178 | Pirc Defense: Classical Variation                   |     1718.85 |    33
+(15 rows)
+
+ oid  |                              opening_name                              | opening_avg | count 
+------+------------------------------------------------------------------------+-------------+-------
+  838 | King's Pawn Game: Damiano Defense                                      |     1351.73 |    79
+ 1163 | King's Pawn Game: Wayward Queen Attack                                 |     1352.40 |   164
+  158 | Alekhine Defense                                                       |     1362.01 |    39
+  531 | Petrov's Defense                                                       |     1376.26 |    42
+  490 | King's Knight Opening                                                  |     1377.70 |    87
+ 1011 | Center Game #2                                                         |     1378.67 |    60
+ 1329 | King's Pawn Game: Wayward Queen Attack |  Kiddie Countergambit         |     1379.22 |    39
+ 1216 | Scandinavian Defense                                                   |     1381.49 |   223
+ 1333 | Van't Kruijs Opening                                                   |     1386.61 |   368
+  798 | King's Pawn Game                                                       |     1391.91 |    56
+   90 | King's Pawn Game: Leonardis Variation                                  |     1393.56 |   154
+  971 | Russian Game: Damiano Variation                                        |     1397.28 |    40
+ 1180 | Mikenas Defense                                                        |     1404.01 |    34
+  105 | King's Pawn Game: Napoleon Attack                                      |     1405.77 |    59
+ 1258 | Italian Game: Two Knights Defense |  Knight Attack |  Normal Variation |     1407.60 |    30
+(15 rows)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+                 opening_name                 | oid  | white_rate | black_rate | draw_rate | count 
+----------------------------------------------+------+------------+------------+-----------+-------
+ Russian Game: Damiano Variation              |  971 |      0.800 |      0.200 |     0.000 |    40
+ Pirc Defense #5                              |  662 |      0.744 |      0.233 |     0.023 |    43
+ Zukertort Opening: Queen's Gambit Invitation |   93 |      0.698 |      0.245 |     0.057 |    53
+ Nimzowitsch Defense                          |  763 |      0.694 |      0.306 |     0.000 |    36
+ King's Knight Opening                        |  490 |      0.690 |      0.299 |     0.011 |    87
+ French Defense: Advance Variation #3         |  306 |      0.690 |      0.310 |     0.000 |    42
+ English Opening: Agincourt Defense           | 1076 |      0.677 |      0.258 |     0.065 |    31
+ Ruy Lopez: Morphy Defense |  Caro Variation  |  362 |      0.675 |      0.275 |     0.050 |    40
+ King's Pawn Game: Busch-Gass Gambit          |  219 |      0.672 |      0.276 |     0.052 |    58
+ Bishop's Opening: Boi Variation              |  689 |      0.667 |      0.282 |     0.051 |    39
+ Philidor Defense: Exchange Variation #2      | 1129 |      0.667 |      0.333 |     0.000 |    42
+ Queen's Gambit Refused: Marshall Defense     |  474 |      0.661 |      0.323 |     0.016 |   127
+ Elephant Gambit                              |  711 |      0.661 |      0.321 |     0.018 |    56
+ Queen's Pawn                                 |  363 |      0.659 |      0.284 |     0.057 |    88
+ Queen's Pawn                                 | 1097 |      0.659 |      0.341 |     0.000 |    41
+(15 rows)
+
+                      opening_name                       | oid  | white_rate | black_rate | draw_rate | count 
+---------------------------------------------------------+------+------------+------------+-----------+-------
+ King's Pawn Game                                        |  798 |      0.250 |      0.714 |     0.036 |    56
+ Sicilian Defense: Modern Variations |  Main Line        |  307 |      0.300 |      0.700 |     0.000 |    30
+ French Defense: King's Indian Attack                    | 1079 |      0.313 |      0.688 |     0.000 |    32
+ Queen's Pawn Game: Chigorin Variation                   |  904 |      0.304 |      0.638 |     0.058 |    69
+ Center Game: Normal Variation                           |  735 |      0.383 |      0.617 |     0.000 |    47
+ Van't Kruijs Opening                                    | 1333 |      0.342 |      0.614 |     0.043 |   368
+ Italian Game: Schilling-Kostic Gambit                   |  408 |      0.317 |      0.610 |     0.073 |    41
+ Sicilian Defense                                        |  624 |      0.358 |      0.609 |     0.033 |   151
+ Pirc Defense: Classical Variation                       | 1178 |      0.303 |      0.606 |     0.091 |    33
+ Van Geet Opening                                        |  995 |      0.364 |      0.606 |     0.030 |    33
+ French Defense: Advance Variation |  Nimzowitsch System |  868 |      0.342 |      0.605 |     0.053 |    38
+ Englund Gambit Declined |  Reversed French              | 1073 |      0.400 |      0.600 |     0.000 |    35
+ Sicilian Defense: Old Sicilian                          | 1535 |      0.377 |      0.585 |     0.038 |   159
+ Queen's Pawn Game                                       |   41 |      0.373 |      0.585 |     0.042 |   142
+ Italian Game: Giuoco Pianissimo                         |  323 |      0.419 |      0.581 |     0.000 |    31
+(15 rows)
+
+               opening_name               | oid  | white_rate | black_rate | draw_rate | count 
+------------------------------------------+------+------------+------------+-----------+-------
+ Semi-Slav Defense                        |  475 |      0.364 |      0.424 |     0.212 |    33
+ Reti Opening                             | 1044 |      0.533 |      0.300 |     0.167 |    30
+ Bird Opening: Dutch Variation            | 1234 |      0.422 |      0.453 |     0.125 |    64
+ French Defense: Advance Variation #2     | 1300 |      0.438 |      0.438 |     0.125 |    32
+ Slav Defense #2                          |  422 |      0.381 |      0.500 |     0.119 |    42
+ Italian Game                             |  576 |      0.569 |      0.321 |     0.110 |   109
+ Caro-Kann Defense: Exchange Variation    |  178 |      0.455 |      0.439 |     0.106 |    66
+ King's Pawn Game: Maroczy Defense        |  601 |      0.455 |      0.455 |     0.091 |    33
+ Pirc Defense: Classical Variation        | 1178 |      0.303 |      0.606 |     0.091 |    33
+ Alekhine Defense: Scandinavian Variation |  398 |      0.394 |      0.515 |     0.091 |    33
+ Queen's Pawn Game #3                     |  285 |      0.357 |      0.554 |     0.089 |    56
+ Caro-Kann Defense: Advance Variation     | 1425 |      0.404 |      0.509 |     0.088 |    57
+ St. George Defense                       |  197 |      0.588 |      0.324 |     0.088 |    34
+ Sicilian Defense: Closed Variation       |  171 |      0.471 |      0.443 |     0.086 |    70
+ Slav Defense                             |  152 |      0.417 |      0.500 |     0.083 |    36
+(15 rows)
+
